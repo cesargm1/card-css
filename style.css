@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #a4abe7;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+   
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 30%;
+    background-color: rgb(197, 229, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20rem;
+    border-radius: 15px;
+    min-height: 500px;
+    -webkit-box-shadow: inset -4px -4px 41px 46px rgba(176,197,217,0.6);
+    -moz-box-shadow: inset -4px -4px 41px 46px rgba(176,197,217,0.6);
+    box-shadow: inset -4px -4px 41px 46px rgba(176,197,217,0.6);;
+    position: relative;
+   
+
+}
+
+
+img{
+    width: 540px;
+    height: 540px;
+    margin: 5%;
+    position: absolute;
+    right: auto;
+    left: auto;
+    bottom: 120px;
+    object-fit: scale-down;
+    background-size: cover;
+}
+
+.title-card{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 7em
+}
+
+.text-card{
+    text-transform: lowercase;
+    padding: 15px;
+    
+}
